@@ -23,4 +23,18 @@ var a=10
          
         else -> println("Enter correct")
     }
+//Example 2
+class rectange(var a:Double , var b:Double){
+    fun area():Double{
+        return a*b
+    }
+    fun display(){
+        println("So the area of Rectangle is :  ${this.area()}")
+    }
+    
+}
+fun main(){
+    val r1=rectange(20.0,30.0)
+    r1.display()
+}
 
